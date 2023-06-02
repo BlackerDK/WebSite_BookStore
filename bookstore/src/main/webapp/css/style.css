@@ -1,0 +1,252 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 24, 2023, 10:32:41 PM
+    Author     : DUY KHANH
+*/
+header {
+    padding: 10px;
+    text-align: center;
+}
+.image-backround{
+    background-image: url(../Image/backgroundBook.jpg);
+}
+.logo {
+    font-family: "Arial", sans-serif;
+    position: relative;
+}
+
+.logo a {
+    color: chartreuse;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    text-align: center;
+    animation: running-text 10s linear infinite;
+    padding: 130px;
+    color:red;
+    height: auto;
+}
+
+@keyframes running-text {
+    0% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(10%);
+    }
+}
+
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li a.active {
+    background-color: #555;
+}
+
+#featured-products {
+    text-align: center;
+}
+
+#featured-products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product{
+    padding: 5px;
+    margin: 20px;
+    width: 75%;
+}
+form{
+    display: inline-block !important;
+    border: 1px solid #555;
+    margin: 10px;
+}
+
+.product img {
+    width: 190px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.icon-cart {
+    display: inline-block;
+    font-family: 'Font Awesome';
+    font-size: 20px;
+    margin-right: 5px;
+}
+.icon-cart {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 5px;
+    color: blue;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-bar button i {
+    font-size: 16px;
+}
+.rating {
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.rating label:before {
+    content: '\2605';
+    font-size: 24px;
+}
+
+.rating input:checked ~ label {
+    color: #f7d800;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #f7d800;
+}
+footer {
+    background: linear-gradient(to right, #3498DB, #2ECC71, #2C3E50);
+    padding: 10px 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-info p {
+    margin-bottom: 5px;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-social ul li {
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+.item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+

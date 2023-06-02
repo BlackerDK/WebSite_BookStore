@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 14, 2023, 10:51:15 AM
+    Author     : DUY KHANH
+*/
+
+.search-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.search-table th,
+.search-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.search-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.search-table td img {
+  max-width: 100%;
+  height: auto;
+}
+.search-employees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search-employees form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-employees input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-employees button[type="submit"] {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-employees button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.logout-link {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.logout-link:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+.fontW {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.fontW p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+.Page{
+    text-align: center;
+}
+body{
+    background: linear-gradient(to right, #82E0AA, #2ECC71, #2C3E50);
+    text-align: center;
+}
+td.delete {
+  padding: 8px;
+  text-align: center;
+  background-color: #f2f2f2; 
+  border: 1px solid #ddd;
+}
+
+td.delete a {
+  color: #fff;
+  background-color: #d9534f;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+td.delete a:hover {
+  background-color: #c9302c;
+}
